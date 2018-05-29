@@ -7,6 +7,7 @@ module.exports = {
         var options = {
             url: uri,
             timeout: 5000,
+            maxRedirects: 5,
             headers: {
                 'User-Agent': 'request'
             }
